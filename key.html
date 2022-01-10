@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Four Central Ideas in OOP</title>
+    <link rel="stylesheet" type="text/css" href="styles/styles.css">
+</head>
+<body>
+<div class="container">
+    <header>
+        <div id="title">
+            Introduction to Object-Oriented Programming(OOP)
+        </div>
+    </header>
+    <main>
+        <!-- Intro section-->
+        <h1>What is the central idea of OOP?</h1>
+        <img src="img/key.jpeg" height=50% width=50% alt="The key items of the OOP.">
+        <h3>Encapsulation, Abstraction, Inheritance, Polymorphism</h3>
+        <h1>Encapsulation</h1>
+        <p> By definition, Encapsulation means that all data fields of a class are declared private. Some
+            methods may also be private. The class interacts with other classes only through the class’s
+            constructors and public methods, which means that one class cannot see the other class's information.
+            Encapsulation is often called "information hiding", which means to hide the detail of the inner workings
+            of the class and other implementations. This is central because privacy is secured.
+        </p>
+        <p>Example: In the contact book, there are many functions like edit name and call this guy. When you edit the phone
+        number of this guy, the function won't be able to call this guy.</p>
+        <h1>Abstraction</h1>
+        <p> By definition, an Abstraction is a process of exposing all the necessary details and hiding the rest.
+            In Java, it is defined as the process of reducing the object to its essence so that only the
+            necessary characteristics are exposed to the users.
+        </p>
+        <p> Example: If I am interested only in a guy's social media, the address information of this guy will be hidden.</p>
+        <h1>Inheritance</h1>
+        <p> By definition, Inheritance allows a developer to create a new class from an existing one.
+            The existing class is called the superclass, and the derived class is called the subclass.
+            The subclass inherits characteristics of the superclass, which means to inherit the methods and data
+            defined by the super class. It's very useful because we can reuse the code we wrote for many times, and we don't
+            need to write new one! It's also convenient for debug process.
+        </p>
+        <p>Example: In my contact book, there are many classifications like teachers, classmates, friends, etc. When I need to
+        publish a secret post, I will give permission to the friends class only.</p>
+        <h1>Polymorphism</h1>
+        <p> By definition, Polymorphism means having many forms. It refers to the ability to process objects differently
+            depending on their data type or class. More specifically, it is the ability to redefine methods for derived classes.
+            A polymorphic reference is a variable that can refer to different types of
+            objects at different points in time.Polymorphism ensures that the appropriate method is called for an object of a
+            specific type when the object is disguised as a more general type.
+        </p>
+
+    </main>
+
+    <aside>
+        <p>Content</p>
+        <a href="concept.html">Concept</a>
+        <a href="key.html">Four Central Ideas in OOP</a>
+    </aside>
+
+    <footer>
+        <hr />
+        <p> 2021 Ashleyluo Inc. All Rights Reserved.</p>
+        <h4>Other sections:</h4>
+        <nav>
+            <ul>
+                <li><a href="../">Back to Assignment page</a></li>
+            </ul>
+        </nav>
+    </footer>
+</div>
+</body>
+</html>
